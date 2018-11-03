@@ -26,7 +26,7 @@ I will be added this in soon
 - [ ] User can also enter multiple choice answers when creating a card
 - [ ] App is further styled and customized!
 
-
+## Lab 1
 ### App Walk-though
 
 <img src="https://i.imgur.com/czuhawJ.gif" width=200><br>
