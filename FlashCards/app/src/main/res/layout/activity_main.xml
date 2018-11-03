@@ -8,22 +8,16 @@
 
     <TextView
         android:id="@+id/question1"
-        android:layout_width="wrap_content"
+        android:layout_width="400dp"
         android:layout_height="200dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_marginTop="47dp"
-        android:fontFamily="casual"
-        android:lineSpacingExtra="8sp"
-        android:text="Who is the greatest company?"
         android:background="@color/lightBlue"
+        android:fontFamily="casual"
+        android:text="Who is the greatest company?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
-        android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.225" />
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/answer1"
@@ -37,5 +31,16 @@
         android:textAlignment="center"
         android:textSize="40sp"
         android:visibility="invisible" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/createFlashCardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="26dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add" />
 
 </android.widget.RelativeLayout>
